@@ -1,0 +1,18 @@
+expTree
+100 PRINT 2+3+4+5+6+7+8+9     // pass
+101 PRINT 2+-3  (  +4**(10+5)+6)+7*   8+-9    // pass
+101 PRINT 2+-3  +(  4**(10+5)+6)+7*   8+-9    // pass
+
+100 PRINT 3 + 3
+101 LET x = 3
+102 PRINT 6 * (3+2)
+103 LET y = 8 * 3
+
+101 LET x = 3
+102 PRINT x
+
+10 REM Program to simulate a countdown
+20 LET T = 10
+40 PRINT T
+50 LET T = T - 1
+51 PRINT T
