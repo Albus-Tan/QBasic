@@ -1,4 +1,6 @@
 # QBasic interpreter
+## Academic Integrity WARNING
+The code has been added to the checking library of SJTU SE, so please do not copy it.
 ## Introduction 
 A minimal BASIC interpreter designed with C++, which includes expression parsing, expression evaluation, statement execution and runtime context maintenance.
 ## Functions & Commands
@@ -22,7 +24,4 @@ A minimal BASIC interpreter designed with C++, which includes expression parsing
     |CLEAR|This command deletes the program so the user can start entering a new one.|
     |HELP	|This command provides a simple help message describing your interpreter.|
     |QUIT	|Typing QUIT exits from the BASIC interpreter.|
-
-* ### Syntax tree display
-    Syntax tree is one abstract representation of program. More specifically, every statement in the program can be represented as a tree. The structure of the syntax tree can be seen as the steps of the computation of the expression in the statement. The node of the tree can be identifier definition, assignment, function call, expression computation and conditional or unconditional branch.  In my interpreter implementation, the computation is made along the syntax tree from leaf node to root. Because the connection structures of the tree are determined by the computation rules, e.g. operator priority and association. In my implementation, the syntax tree is constructed in infix notation.  
 
