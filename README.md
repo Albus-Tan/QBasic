@@ -1,6 +1,6 @@
 # QBasic interpreter
 ## Academic Integrity WARNING
-The code has been added to the checking library of SJTU SE, so please do not copy it.
+The code has been added to the checking library of SJTU SE SEP, so please do not copy it.
 ## Introduction 
 A minimal BASIC interpreter designed with C++, which includes expression parsing, expression evaluation, statement execution and runtime context maintenance.
 ## Functions & Commands
